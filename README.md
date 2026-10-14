@@ -96,21 +96,20 @@ A full-stack electronics store featuring two AI assistants: a shopping assistant
 
 ---
 
-### 🤖 [ProjectMonitorAI — AI-Powered Project Management](https://github.com/George-lab2004/ProjectMonitorAI)
+### 🤖 [ProjectMonitorAI — AI-Powered Project Management Backend](https://github.com/George-lab2004/ProjectMonitorAI)
 
-An AI-assisted project management platform combining project tracking, real-time collaboration, and an autonomous AI auditor.
+A backend-focused project management platform featuring AI-powered project auditing, secure APIs, and real-time collaboration infrastructure.
 
 **Highlights**
-- Developed full-stack functionality with a React/TypeScript frontend and a Node.js/Express backend.
-- Built an AI auditor that evaluates project information and queries live metrics through Gemini function calling.
-- Implemented an **11-function AI tool registry** and a four-tier model fallback pipeline.
-- Added real-time Kanban synchronization and role-based access control.
-- Secured private Pusher channels and backend APIs, with scheduled background processing.
+- Built a Node.js/Express backend with MongoDB and role-based access control.
+- Developed an AI auditor powered by Google Gemini, using an **11-function tool registry** to query project metrics dynamically.
+- Engineered a four-tier, multi-model fallback pipeline for improved AI request resilience.
+- Implemented real-time Kanban synchronization infrastructure using Pusher and private-channel authorization.
+- Added scheduled background processing and backend API security measures.
 
-**Tech stack:** React, TypeScript, Node.js, Express, MongoDB, Google Gemini, Pusher, Joi, Vercel.
+**Status:** Backend completed; frontend development in progress.
 
-🔗 [Source Code](https://github.com/George-lab2004/ProjectMonitorAI) · [Live Demo](https://project-monitor-ai.vercel.app/)
-
+**Tech stack:** Node.js, TypeScript, Express.js, MongoDB, Google Gemini, Pusher, Joi.
 ---
 
 ### 🍽️ [RestaurantHub — ASP.NET Core Ordering System](https://github.com/George-lab2004/RestaurantHub)
